@@ -1,0 +1,229 @@
+﻿@model Form.Models.SignForm
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_Layout";
+}
+
+    <div class="container d-flex justify-content-center align-items-center" style="min-height:100vh;">
+
+        <div class="card shadow-lg p-4 w-100" style="max-width: 500px; border-radius: 15px;">
+
+            <h3 class="text-center mb-4">Create Account</h3>
+
+        @* @if (TempData["Error"] != null)
+        {
+            <div class="alert alert-danger">
+                @TempData["Error"]
+            </div>
+        }
+        @if (TempData["success"] != null)
+        {
+            <div id="successAlert" class="alert alert-success">
+                @TempData["success"]
+            </div>
+        } *@
+
+            <form method="post" asp-action="Index">
+
+                <div class="mb-3">
+                    <label class="form-label">User Name</label>
+                    <input asp-for="UserName" class="form-control" placeholder="Enter your username" required>
+                        <span asp-validation-for="UserName" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input asp-for="Email" type="email" class="form-control" placeholder="Enter your email" required>
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Mobile</label>
+                        <input asp-for="Mobile" type="tel" class="form-control" placeholder="Enter mobile number" id="mobileInput" required>
+                                <span asp-validation-for="Mobile" class="text-danger"></span>
+                            </div>
+
+                            @* <div class="mb-3">
+                                <label class="form-label">State</label>
+                                <select asp-for="State" class="form-select">
+                                    <option value="">-- Select State --</option>
+                                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                    <option value="Maharashtra">Maharashtra</option>
+                                    <option value="Delhi">Delhi</option>
+                                    <option value="West Bengal">West Bengal</option>
+                                    <option value="Rajasthan">Rajasthan</option>
+                                    <option value="Gujarat">Gujarat</option>
+                                </select>
+                                <span asp-validation-for="State" class="text-danger"></span>
+                            </div> *@
+                        <div class="mb-3">
+                            <label class="form-label">State</label>
+
+                            <select id="stateDropdown" asp-for="State" class="form-select">
+                                <option value="">-- Select State --</option>
+
+                                @foreach (var item in ViewBag.States)
+                                {
+                                    <option value="@item.StateId">@item.StateName</option>
+                                }
+                            </select>
+
+                            <span asp-validation-for="State" class="text-danger"></span>
+                        </div>
+
+                            @* <div class="mb-3">
+                                <label class="form-label">City</label>
+                                <select asp-for="City" class="form-select">
+                                    <option value="">-- Select City --</option>
+                                    <option value="Lucknow">Lucknow</option>
+                                    <option value="Kanpur">Kanpur</option>
+                                    <option value="Varanasi">Varanasi</option>
+                                    <option value="Noida">Noida</option>
+                                    <option value="Delhi">Delhi</option>
+                                    <option value="Mumbai">Mumbai</option>
+                                    <option value="Pune">Pune</option>
+                                </select>
+                                <span asp-validation-for="City" class="text-danger"></span>
+                            </div> *@
+                        <div class="mb-3">
+    <label class="form-label">City</label>
+
+    <select id="cityDropdown" asp-for="City" class="form-select">
+        <option value="">-- Select City --</option>
+    </select>
+
+    <span asp-validation-for="City" class="text-danger"></span>
+</div>
+
+                                    <div class="mb-3">
+                                        <label class="form-label">Address</label>
+                                <input asp-for="Address" class="form-control" placeholder="Enter address" required>
+                                    <span asp-validation-for="Address" class="text-danger"></span>
+                                        </div>
+
+                                        <!-- Password -->
+                                        <div class="mb-3">
+                                            <label class="form-label">Password</label>
+                                    <input asp-for="Password" type="password" class="form-control" placeholder="Enter password" required>
+                                        <span asp-validation-for="Password" class="text-danger"></span>
+                                            </div>
+
+                                            <!-- Confirm Password -->
+                                            <div class="mb-3">
+                                                <label class="form-label">Confirm Password</label>
+                                        <input asp-for="ConPassword" type="password" class="form-control" placeholder="Re-enter password" required>
+                                        <span asp-validation-for="ConPassword" class="text-danger"></span>
+                                                </div>
+
+
+                                            <button type="submit" class="btn btn-primary w-100">
+                                                Sign Up
+                                            </button>
+
+                                        </form>
+
+                                        <div class="text-center mt-3">
+                                            <a asp-action="LoginPage" class="text-decoration-none">Already have an account? Login</a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                        <script>
+                            document.addEventListener("DOMContentLoaded", function () {
+
+                                setTimeout(function () {
+                                    let alertBox = document.getElementById("successAlert");
+
+                                    if (alertBox) {
+                                        alertBox.style.transition = "opacity 0.5s ease";
+                                        alertBox.style.opacity = "0";
+
+                                        setTimeout(() => {
+                                            alertBox.remove();
+                                        }, 500);
+                                    }
+
+                                }, 3000); // 3 seconds visible
+                            });
+                        </script>
+                        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+                        <script>
+                            document.addEventListener("DOMContentLoaded", function () {
+
+                            var success = '@TempData["success"]';
+                            var error = '@TempData["Error"]';
+
+                            if (success && success !== '') {
+                            Swal.fire({
+                            icon: 'success',
+                            title: 'Success',
+                            text: success,
+                            timer: 3000,
+                            showConfirmButton: false
+                            });
+                            }
+
+                            if (error && error !== '') {
+                            Swal.fire({
+                            icon: 'error',
+                            title: 'Error',
+                            text: error,
+                            timer: 3000,
+                            showConfirmButton: false
+                            });
+                            }
+
+                            });
+                        </script>
+                        <script>
+                            const mobileInput = document.getElementById("mobileInput");
+
+                            // typing ke time non-numeric remove karega
+                            mobileInput.addEventListener("input", function () {
+                            this.value = this.value.replace(/[^0-9]/g, "");
+                            });
+                        </script>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial.cshtml" />
+}
+
+                        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+                        <script>
+                            $("#stateDropdown").change(function () {
+
+                            var stateId = $(this).val();
+
+                            if (!stateId) {
+                            $("#cityDropdown").html('<option value="">-- Select City --</option>');
+                            return;
+                            }
+
+                            $.ajax({
+                            url: '/Value/GetCities',
+                            type: 'GET',
+                            data: { stateId: stateId },
+                            success: function (data) {
+
+                            $("#cityDropdown").empty();
+                            $("#cityDropdown").append('<option value="">-- Select City --</option>');
+
+                            $.each(data, function (i, city) {
+                            $("#cityDropdown").append(
+                            `<option value="${city.cityId}">${city.cityName}</option>`
+                            );
+                            });
+                            },
+                            error: function (xhr) {
+                            console.log(xhr.responseText);
+                            alert("City load error");
+                            }
+                            });
+
+                            });
+                        </script>

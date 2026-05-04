@@ -1,0 +1,82 @@
+﻿@model Form.Models.SignForm
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+<html>
+
+
+    <div class="container d-flex justify-content-center align-items-center" style="min-height:100vh;">
+
+        <div class="card shadow-lg p-4 w-100" style="max-width: 420px; border-radius: 15px;">
+
+            <h3 class="text-center mb-4">Login</h3>
+
+            <form method="post" asp-action="LoginPage">
+
+                <div class="mb-3">
+                    <label class="form-label">Email</label>
+                    <input name="Email" type="email" class="form-control" placeholder="Enter your email">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        <input asp-for="Password" type="password" class="form-control" placeholder="Enter your password">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-100">
+                            Login
+                        </button>
+
+                    </form>
+
+                    <div class="text-center mt-3">
+    <a asp-action="Forget_Password" class="text-decoration-none me-3">
+        Forgot Password?
+    </a>
+
+    <span class="text-muted">|</span>
+
+    <a asp-action="Index" class="text-decoration-none ms-3">
+        Sign Up
+    </a>
+</div>
+
+                </div>
+
+            </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+
+            var success = '@TempData["success"]';
+            var error = '@TempData["Error"]';
+
+            if (success && success !== '') {
+            Swal.fire({
+            icon: 'success',
+            title: 'Success',
+            text: success,
+            timer: 3000,
+            showConfirmButton: false
+            });
+            }
+
+            if (error && error !== '') {
+            Swal.fire({
+            icon: 'error',
+            title: 'Error',
+            text: error,
+            timer: 3000,
+            showConfirmButton: false
+            });
+            }
+
+            });
+        </script>

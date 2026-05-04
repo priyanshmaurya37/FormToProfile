@@ -1,0 +1,156 @@
+﻿@model Form.Models.SignForm
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Profile</title>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+    <div class="container d-flex justify-content-center align-items-center" style="min-height:100vh;">
+
+        <div class="card shadow-lg p-4 w-100" style="max-width: 520px; border-radius: 15px;">
+
+            <h3 class="text-center mb-4">Edit Profile</h3>
+
+            <form method="post" asp-action="EditData">
+
+                <input type="hidden" asp-for="Id" />
+
+                <div class="mb-3">
+                    <label class="form-label">User Name</label>
+                    <input asp-for="UserName" class="form-control" type="text" placeholder="Enter username">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input asp-for="Email" class="form-control" type="email" placeholder="Enter email">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Mobile</label>
+                            <input asp-for="Mobile" class="form-control" id="mobileInput" type="tel" placeholder="Enter mobile number">
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">State</label>
+
+                                <select id="stateDropdown" asp-for="State" class="form-select">
+                                    <option value="">-- Select State --</option>
+
+                                    @foreach (var item in ViewBag.States)
+                                    {
+                                        <option value="@item.StateId">@item.StateName</option>
+                                    }
+                                </select>
+
+                                <span asp-validation-for="State" class="text-danger"></span>
+                            </div>
+
+                            <!-- CITY DROPDOWN -->
+                            <div class="mb-3">
+                                <label class="form-label">City</label>
+
+                                <select id="cityDropdown" asp-for="City" class="form-select">
+                                    <option value="">-- Select City --</option>
+
+                                    @foreach (var item in ViewBag.Cities)
+                                    {
+                                        <option value="@item.CityId" selected="@(item.CityId == Model.City ? "selected" : null)">
+                                            @item.CityName
+                                        </option>
+                                    }
+                                </select>
+
+                                <span asp-validation-for="City" class="text-danger"></span>
+                            </div>
+
+
+                                    <div class="mb-3">
+                                        <label class="form-label">Address</label>
+                                        <input asp-for="Address" class="form-control" type="text" placeholder="Enter address">
+                                        </div>
+
+                                        <button type="submit" class="btn btn-success w-100">
+                                            Save Changes
+                                        </button>
+
+                                    </form>
+
+                                </div>
+
+                            </div>
+
+                        </body>
+                    </html>
+
+                
+
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script>
+                const mobileInput = document.getElementById("mobileInput");
+
+                // typing ke time non-numeric remove karega
+                mobileInput.addEventListener("input", function () {
+                this.value = this.value.replace(/[^0-9]/g, "");
+                });
+            </script>
+
+            <script>
+                $(document).ready(function () {
+
+                $("#stateDropdown").change(function () {
+
+                var stateId = $(this).val();
+
+                console.log("Selected State:", stateId);
+
+                $("#cityDropdown").html('<option>Loading...</option>');
+
+                if (!stateId || stateId == "") {
+                $("#cityDropdown").html('<option value="">-- Select City --</option>');
+                return;
+                }
+
+                $.ajax({
+                url: '/Value/GetCities',
+                type: 'GET',
+                data: { stateId: stateId },
+                success: function (data) {
+
+                console.log("Response:", data);
+
+                $("#cityDropdown").empty();
+                $("#cityDropdown").append('<option value="">-- Select City --</option>');
+
+                if (!data || data.length === 0) {
+                $("#cityDropdown").append('<option>No cities found</option>');
+                return;
+                }
+
+                $.each(data, function (i, city) {
+                $("#cityDropdown").append(
+                `<option value="${city.cityId}">${city.cityName}</option>`
+                );
+                });
+                },
+                error: function (xhr) {
+                console.log("Error:", xhr.responseText);
+                alert("AJAX failed");
+                }
+                });
+
+                });
+
+                });
+            </script>
+
+           

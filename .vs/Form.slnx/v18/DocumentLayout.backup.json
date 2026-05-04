@@ -1,0 +1,345 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Digi Coders\\API Data\\Form\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|d:\\digi coders\\api data\\form\\form\\views\\value\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\views\\value\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|d:\\digi coders\\api data\\form\\form\\models\\signform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\models\\signform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|d:\\digi coders\\api data\\form\\form\\controllers\\valuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\controllers\\valuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|d:\\digi coders\\api data\\form\\form\\models\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\models\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|d:\\digi coders\\api data\\form\\form\\models\\states.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\models\\states.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|d:\\digi coders\\api data\\form\\form\\models\\cities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\models\\cities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|d:\\digi coders\\api data\\form\\form\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|d:\\digi coders\\api data\\form\\form\\views\\value\\profilepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\views\\value\\profilepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|d:\\digi coders\\api data\\form\\form\\views\\value\\editdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\views\\value\\editdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|d:\\digi coders\\api data\\form\\form\\views\\value\\loginpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\views\\value\\loginpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|d:\\digi coders\\api data\\form\\form\\views\\value\\change_password.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\views\\value\\change_password.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|d:\\digi coders\\api data\\form\\form\\views\\value\\verify_otp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\views\\value\\verify_otp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|d:\\digi coders\\api data\\form\\form\\views\\value\\forget_password.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\views\\value\\forget_password.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|d:\\digi coders\\api data\\form\\form\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|d:\\digi coders\\api data\\form\\form\\servies\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\servies\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|d:\\digi coders\\api data\\form\\form\\form.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\form.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|d:\\digi coders\\api data\\form\\form\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|d:\\digi coders\\api data\\form\\form\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|d:\\digi coders\\api data\\form\\form\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|d:\\digi coders\\api data\\form\\form\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{930C8EF8-F0EB-7AB7-7515-A640CD8004C0}|Form\\Form.csproj|solutionrelative:form\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 17,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SignForm.cs",
+              "DocumentMoniker": "D:\\Digi Coders\\API Data\\Form\\Form\\Models\\SignForm.cs",
+              "RelativeDocumentMoniker": "Form\\Models\\SignForm.cs",
+              "ToolTip": "D:\\Digi Coders\\API Data\\Form\\Form\\Models\\SignForm.cs",
+              "RelativeToolTip": "Form\\Models\\SignForm.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwBsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T06:29:05.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Change_Password.cshtml",
+              "DocumentMoniker": "D:\\Digi Coders\\API Data\\Form\\Form\\Views\\Value\\Change_Password.cshtml",
+              "RelativeDocumentMoniker": "Form\\Views\\Value\\Change_Password.cshtml",
+              "ToolTip": "D:\\Digi Coders\\API Data\\Form\\Form\\Views\\Value\\Change_Password.cshtml",
+              "RelativeToolTip": "Form\\Views\\Value\\Change_Password.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAwwDMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-28T04:58:10.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Verify_OTP.cshtml",
+              "DocumentMoniker": "D:\\Digi Coders\\API Data\\Form\\Form\\Views\\Value\\Verify_OTP.cshtml",
+              "RelativeDocumentMoniker": "Form\\Views\\Value\\Verify_OTP.cshtml",
+              "ToolTip": "D:\\Digi Coders\\API Data\\Form\\Form\\Views\\Value\\Verify_OTP.cshtml",
+              "RelativeToolTip": "Form\\Views\\Value\\Verify_OTP.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-28T04:55:30.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Forget_Password.cshtml",
+              "DocumentMoniker": "D:\\Digi Coders\\API Data\\Form\\Form\\Views\\Value\\Forget_Password.cshtml",
+              "RelativeDocumentMoniker": "Form\\Views\\Value\\Forget_Password.cshtml",
+              "ToolTip": "D:\\Digi Coders\\API Data\\Form\\Form\\Views\\Value\\Forget_Password.cshtml",
+              "RelativeToolTip": "Form\\Views\\Value\\Forget_Password.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-28T04:52:20.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cities.cs",
+              "DocumentMoniker": "D:\\Digi Coders\\API Data\\Form\\Form\\Models\\Cities.cs",
+              "RelativeDocumentMoniker": "Form\\Models\\Cities.cs",
+              "ToolTip": "D:\\Digi Coders\\API Data\\Form\\Form\\Models\\Cities.cs",
+              "RelativeToolTip": "Form\\Models\\Cities.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T12:06:36.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "States.cs",
+              "DocumentMoniker": "D:\\Digi Coders\\API Data\\Form\\Form\\Models\\States.cs",
+              "RelativeDocumentMoniker": "Form\\Models\\States.cs",
+              "ToolTip": "D:\\Digi Coders\\API Data\\Form\\Form\\Models\\States.cs",
+              "RelativeToolTip": "Form\\Models\\States.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T12:05:45.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "D:\\Digi Coders\\API Data\\Form\\Form\\Servies\\EmailSender.cs",
+              "RelativeDocumentMoniker": "Form\\Servies\\EmailSender.cs",
+              "ToolTip": "D:\\Digi Coders\\API Data\\Form\\Form\\Servies\\EmailSender.cs",
+              "RelativeToolTip": "Form\\Servies\\EmailSender.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T09:11:02.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Form.csproj",
+              "DocumentMoniker": "D:\\Digi Coders\\API Data\\Form\\Form\\Form.csproj",
+              "RelativeDocumentMoniker": "Form\\Form.csproj",
+              "ToolTip": "D:\\Digi Coders\\API Data\\Form\\Form\\Form.csproj",
+              "RelativeToolTip": "Form\\Form.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-27T09:10:24.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EditData.cshtml",
+              "DocumentMoniker": "D:\\Digi Coders\\API Data\\Form\\Form\\Views\\Value\\EditData.cshtml",
+              "RelativeDocumentMoniker": "Form\\Views\\Value\\EditData.cshtml",
+              "ToolTip": "D:\\Digi Coders\\API Data\\Form\\Form\\Views\\Value\\EditData.cshtml",
+              "RelativeToolTip": "Form\\Views\\Value\\EditData.cshtml",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAAFsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T08:01:08.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "D:\\Digi Coders\\API Data\\Form\\Form\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Form\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "D:\\Digi Coders\\API Data\\Form\\Form\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Form\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-27T05:50:52.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Digi Coders\\API Data\\Form\\Form\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Form\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Digi Coders\\API Data\\Form\\Form\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Form\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T05:47:04.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProfilePage.cshtml",
+              "DocumentMoniker": "D:\\Digi Coders\\API Data\\Form\\Form\\Views\\Value\\ProfilePage.cshtml",
+              "RelativeDocumentMoniker": "Form\\Views\\Value\\ProfilePage.cshtml",
+              "ToolTip": "D:\\Digi Coders\\API Data\\Form\\Form\\Views\\Value\\ProfilePage.cshtml",
+              "RelativeToolTip": "Form\\Views\\Value\\ProfilePage.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T05:35:03.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginPage.cshtml",
+              "DocumentMoniker": "D:\\Digi Coders\\API Data\\Form\\Form\\Views\\Value\\LoginPage.cshtml",
+              "RelativeDocumentMoniker": "Form\\Views\\Value\\LoginPage.cshtml",
+              "ToolTip": "D:\\Digi Coders\\API Data\\Form\\Form\\Views\\Value\\LoginPage.cshtml",
+              "RelativeToolTip": "Form\\Views\\Value\\LoginPage.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T05:18:16.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Digi Coders\\API Data\\Form\\Form\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Form\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Digi Coders\\API Data\\Form\\Form\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Form\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T05:01:44.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Digi Coders\\API Data\\Form\\Form\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Form\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Digi Coders\\API Data\\Form\\Form\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Form\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T05:01:37.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DBConnection.cs",
+              "DocumentMoniker": "D:\\Digi Coders\\API Data\\Form\\Form\\Models\\DBConnection.cs",
+              "RelativeDocumentMoniker": "Form\\Models\\DBConnection.cs",
+              "ToolTip": "D:\\Digi Coders\\API Data\\Form\\Form\\Models\\DBConnection.cs",
+              "RelativeToolTip": "Form\\Models\\DBConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T04:53:43.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Digi Coders\\API Data\\Form\\Form\\Views\\Value\\Index.cshtml",
+              "RelativeDocumentMoniker": "Form\\Views\\Value\\Index.cshtml",
+              "ToolTip": "D:\\Digi Coders\\API Data\\Form\\Form\\Views\\Value\\Index.cshtml",
+              "RelativeToolTip": "Form\\Views\\Value\\Index.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAAoAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T04:53:12.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ValueController.cs",
+              "DocumentMoniker": "D:\\Digi Coders\\API Data\\Form\\Form\\Controllers\\ValueController.cs",
+              "RelativeDocumentMoniker": "Form\\Controllers\\ValueController.cs",
+              "ToolTip": "D:\\Digi Coders\\API Data\\Form\\Form\\Controllers\\ValueController.cs",
+              "RelativeToolTip": "Form\\Controllers\\ValueController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T04:53:04.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Digi Coders\\API Data\\Form\\Form\\appsettings.json",
+              "RelativeDocumentMoniker": "Form\\appsettings.json",
+              "ToolTip": "D:\\Digi Coders\\API Data\\Form\\Form\\appsettings.json",
+              "RelativeToolTip": "Form\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-27T04:52:42.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Digi Coders\\API Data\\Form\\Form\\Program.cs",
+              "RelativeDocumentMoniker": "Form\\Program.cs",
+              "ToolTip": "D:\\Digi Coders\\API Data\\Form\\Form\\Program.cs",
+              "RelativeToolTip": "Form\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T04:52:01.484Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
